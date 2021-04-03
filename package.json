@@ -1,0 +1,22 @@
+{
+  "name": "yujan-cart-manager",
+  "version": "1.0.0",
+  "description": "practice library that manages the global cart state of a user",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yujanrichie/cart-manager.git"
+  },
+  "keywords": [
+    "cart-manager-test"
+  ],
+  "author": "Jan Richie Yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yujanrichie/cart-manager/issues"
+  },
+  "homepage": "https://github.com/yujanrichie/cart-manager#readme"
+}
