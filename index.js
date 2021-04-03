@@ -91,3 +91,4 @@ function CartManager() {
     };
 }
 
+module.exports.CartManager = CartManager;
