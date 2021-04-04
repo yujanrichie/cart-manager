@@ -65,8 +65,9 @@ function CartManager() {
 
             if (itemFound != null) {
                 let newQuantity = itemFound['quantity'] || 1;
-                newQuantity++;
-                itemFound['quantity'] = newQuantity;
+                let prevQuantity = item['quantity'] || 0;
+                itemFound['quantity'] = prevQuantity + newQuantity;
+
                 _handleChange && _handleChange(_cartItems);
             }
         }
